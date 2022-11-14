@@ -1,0 +1,17 @@
+<div class="div1">
+  <div class="card-style">
+    <%= params[:question] %>
+    <p>-You</p>
+  </div>
+</div>
+
+<div class="div2">
+  <div class="card-style">
+    <strong><%= @answer %></strong>
+    <p>-Your coach</p>
+  </div>
+</div>
+
+<div class="link">
+<%= link_to "ask a new question", ask_path %>
+</div>
